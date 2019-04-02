@@ -5,7 +5,8 @@
     "start": "vuepress dev site",
     "build:async": "vue-cli-service build --target wc-async --name w-loading 'src/CLoading.vue'",
     "site": "export GH=1 && vuepress build site && bash scripts/deploy-gh.sh",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "precommit": "lint-staged"
   },
   "main": "dist/w-loading.js",
   "unpkg": "dist/w-loading.js",
@@ -32,9 +33,6 @@
     "sass-loader": "^7.1.0",
     "vue-template-compiler": "^2.5.21",
     "vuepress": "^1.0.0-alpha.46"
-  },
-  "gitHooks": {
-    "pre-commit": "lint-staged"
   },
   "lint-staged": {
     "*.{js,vue}": [
