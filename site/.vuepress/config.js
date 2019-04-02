@@ -1,4 +1,4 @@
-const base = process.env.GH ? '/src/' : '/'
+const base = process.env.GH ? '/loading/' : '/'
 
 module.exports = {
   title: 'Loading',
