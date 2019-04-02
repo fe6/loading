@@ -1,6 +1,6 @@
 {
   "name": "@fe6/loading",
-  "version": "0.0.0",
+  "version": "1.0.0-alpha.2",
   "scripts": {
     "start": "vuepress dev site",
     "build:async": "vue-cli-service build --target wc-async --name w-loading 'src/CLoading.vue'",
