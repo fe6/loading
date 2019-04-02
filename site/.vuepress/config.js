@@ -16,7 +16,7 @@ module.exports = {
   dest: './docs',
   serviceWorker: true,
   themeConfig: {
-    repo: 'fe6/src',
+    repo: 'fe6/loading',
     searchMaxSuggestions: 5,
     docsDir: 'site',
     locales: {
