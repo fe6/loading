@@ -1,12 +1,18 @@
 {
-  "name": "loading",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@fe6/loading",
+  "version": "0.0.0",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "start": "vuepress dev site",
+    "build:async": "vue-cli-service build --target wc-async --name w-loading 'src/CLoading.vue'",
+    "site": "export GH=1 && vuepress build site && bash scripts/deploy-gh.sh",
     "lint": "vue-cli-service lint"
   },
+  "main": "dist/w-loading.js",
+  "unpkg": "dist/w-loading.js",
+  "files": [
+    "dist",
+    "src"
+  ],
   "dependencies": {
     "core-js": "^2.6.5",
     "vue": "^2.6.6"
@@ -21,9 +27,11 @@
     "eslint-plugin-vue": "^5.0.0",
     "fibers": "^3.1.1",
     "lint-staged": "^8.1.4",
+    "node-sass": "^4.11.0",
     "sass": "^1.17.2",
     "sass-loader": "^7.1.0",
-    "vue-template-compiler": "^2.5.21"
+    "vue-template-compiler": "^2.5.21",
+    "vuepress": "^1.0.0-alpha.46"
   },
   "gitHooks": {
     "pre-commit": "lint-staged"

@@ -1,0 +1,54 @@
+$width: 40px;
+$padding: 25px;
+
+.w-loading-wap {
+  box-sizing: content-box;
+
+  &-mixin {
+    box-shadow: 0 0 12px 0 rgba(56, 56, 56, 0.12);
+    width: $width;
+    height: $width;
+    padding: $padding;
+    background: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    border-radius: 4px;
+
+    [data-dpr="2"] & {
+      width: $width * 2;
+      height: $width * 2;
+      padding: $padding * 2;
+    }
+
+    [data-dpr="3"] & {
+      width: $width * 3;
+      height: $width * 3;
+      padding: $padding * 3;
+    }
+  }
+
+  &-fixed {
+    @extend .w-loading-wap-mixin;
+
+    position: fixed;
+
+    &-img {
+      max-width: 100%;
+    }
+  }
+
+  &-mask {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+
+    &-img {
+      @extend .w-loading-wap-mixin;
+
+      position: absolute;
+    }
+  }
+}
