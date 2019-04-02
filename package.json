@@ -1,6 +1,6 @@
 {
   "name": "@fe6/loading",
-  "version": "1.0.0-alpha.9",
+  "version": "1.0.0-alpha.10",
   "scripts": {
     "start": "vuepress dev site",
     "build": "vue-cli-service build --target lib --name loading 'src/CLoading.vue'",
