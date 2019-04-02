@@ -3,7 +3,7 @@
   "version": "1.0.0-alpha.9",
   "scripts": {
     "start": "vuepress dev site",
-    "build": "vue-cli-service build --target lib --name loading 'src/CLoading.vue'",
+    "build:async": "vue-cli-service build --target lib --name loading 'src/CLoading.vue'",
     "site": "export GH=1 && vuepress build site && bash scripts/deploy-gh.sh",
     "lint": "vue-cli-service lint",
     "precommit": "lint-staged"
