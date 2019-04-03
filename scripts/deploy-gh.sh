@@ -1,4 +1,3 @@
-yarn build:site
 cd docs
 git init
 git add -A
