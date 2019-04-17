@@ -1,7 +1,6 @@
 <template>
   <div :class="wrapClass">
     <img :class="imgClass" :src="imgPath" @error="errorHandle" :style="imgStyle">
-    <p :class="textClass" :style="{color: textColor}">{{text}}</p>
   </div>
 </template>
 
@@ -12,7 +11,7 @@ const imgNameDef = 'loading201904171';
 const imgVersionDef = '';
 
 export default {
-  name: 'w-loading',
+  name: 'w-loading-wap',
   data() {
     return {
       imgPath: '',
@@ -40,14 +39,6 @@ export default {
       type: String,
       default: imgVersionDef,
     },
-    text: {
-      type: String,
-      default: '正在加载中…',
-    },
-    textColor: {
-      type: String,
-      default: '#0297fe',
-    },
     mode: {
       type: String,
       default: 'fixed', // fixed | mask
@@ -55,7 +46,6 @@ export default {
     orgId: [Number, String],
     classWrapName: [Object, String],
     classImgName: [Object, String],
-    classTextClass: [Object, String],
   },
   computed: {
     wrapClass() {
@@ -63,9 +53,6 @@ export default {
     },
     imgClass() {
       return [`w-loading-wap-${this.mode}-img`, this.classImgName];
-    },
-    textClass() {
-      return [`w-loading-wap-${this.mode}-text`, this.classTextClass];
     },
   },
   mounted() {
@@ -81,5 +68,5 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import './cloading.scss';
+@import './cloadingwap.scss';
 </style>
