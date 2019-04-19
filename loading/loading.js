@@ -1,10 +1,10 @@
 // 组件
-import WLoading from './Pc';
-import WLoadingWap from './Wap';
+import LoadingPc from './pc/LoadingPc';
+import Loading from './wap/LoadingWap';
 
 const waterCpt = {
-  WLoading,
-  WLoadingWap,
+  LoadingPc,
+  Loading,
 };
 
 const install = (Vue) => {

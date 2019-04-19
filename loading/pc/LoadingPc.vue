@@ -80,5 +80,5 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import './pc.scss';
+@import './loadingpc.scss';
 </style>

@@ -67,7 +67,7 @@
 |textColor|loading 文案颜色|String|否|#0297fe|
 
 <script>
-import WLoading from '../src/CLoading';
+import WLoading from './LoadingPc';
 
 export default {
   data() {

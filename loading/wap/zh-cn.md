@@ -60,7 +60,7 @@
 |orgId|loading 图片的 特定版本，与 imgName 互斥|String|否|无|
 
 <script>
-import WLoadingWap from '../src/CLoadingWap';
+import WLoadingWap from './LoadingWap';
 
 export default {
   data() {
