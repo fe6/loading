@@ -67,5 +67,5 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import './wap.scss';
+@import './loadingwap.scss';
 </style>
