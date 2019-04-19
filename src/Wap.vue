@@ -11,7 +11,6 @@ const imgNameDef = 'loading201904171';
 const imgVersionDef = '';
 
 export default {
-  name: 'w-loading-wap',
   data() {
     return {
       imgPath: '',
@@ -68,5 +67,5 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import './cloadingwap.scss';
+@import './wap.scss';
 </style>

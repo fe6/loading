@@ -1,6 +1,6 @@
 $width: 100px;
 
-.w-loading-wap {
+.w-loading {
   box-sizing: content-box;
 
   &-mixin {
@@ -26,7 +26,7 @@ $width: 100px;
   }
 
   &-fixed {
-    @extend .w-loading-wap-mixin;
+    @extend .w-loading-mixin;
 
     position: fixed;
 
@@ -36,7 +36,7 @@ $width: 100px;
     }
 
     &-text {
-      @extend .w-loading-wap-mixintext;
+      @extend .w-loading-mixintext;
 
       padding: 12px 0 37px;
     }
@@ -50,14 +50,14 @@ $width: 100px;
     top: 0;
 
     &-img {
-      @extend .w-loading-wap-mixin;
+      @extend .w-loading-mixin;
 
       position: absolute;
       padding: 37px 50px 63px;
     }
 
     &-text {
-      @extend .w-loading-wap-mixintext;
+      @extend .w-loading-mixintext;
 
       position: absolute;
       width: 200px;
