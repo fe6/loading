@@ -3,15 +3,15 @@
   "version": "1.1.2",
   "scripts": {
     "start": "vuepress dev site",
-    "build": "vue-cli-service build --target wc-async --name loading 'src/*.vue'",
+    "build": "vue-cli-service build --target wc-async --name w-loading 'src/index.js'",
     "build:site": "export GH=1 && vuepress build site",
     "site": "yarn build:site && bash scripts/deploy-gh.sh",
     "lint": "vue-cli-service lint",
     "prepublishOnly": "yarn build",
     "precommit": "lint-staged"
   },
-  "main": "dist/loading.js",
-  "unpkg": "dist/loading.js",
+  "main": "dist/w-loading.js",
+  "unpkg": "dist/w-loading.js",
   "files": [
     "dist",
     "src"

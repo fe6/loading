@@ -1,6 +1,6 @@
 // 组件
-import WLoading from './CLoading';
-import WLoadingWap from './CLoadingWap';
+import WLoading from './Pc';
+import WLoadingWap from './Wap';
 
 const waterCpt = {
   WLoading,
