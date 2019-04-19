@@ -12,7 +12,6 @@ const imgNameDef = 'loading201904171';
 const imgVersionDef = '';
 
 export default {
-  name: 'w-loading',
   data() {
     return {
       imgPath: '',
@@ -59,13 +58,13 @@ export default {
   },
   computed: {
     wrapClass() {
-      return [`w-loading-wap-${this.mode}`, this.className];
+      return [`w-loading-${this.mode}`, this.className];
     },
     imgClass() {
-      return [`w-loading-wap-${this.mode}-img`, this.classImgName];
+      return [`w-loading-${this.mode}-img`, this.classImgName];
     },
     textClass() {
-      return [`w-loading-wap-${this.mode}-text`, this.classTextClass];
+      return [`w-loading-${this.mode}-text`, this.classTextClass];
     },
   },
   mounted() {
@@ -81,5 +80,5 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import './cloading.scss';
+@import './pc.scss';
 </style>
