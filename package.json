@@ -10,8 +10,8 @@
     "prepublishOnly": "yarn build",
     "precommit": "lint-staged"
   },
-  "main": "dist/loading.umd.js",
-  "unpkg": "dist/loading.umd.js",
+  "main": "dist/loading.js",
+  "unpkg": "dist/loading.js",
   "files": [
     "dist",
     "src"
