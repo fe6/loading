@@ -4,6 +4,8 @@
 ## 基本用法
 > 默认大小通用是 25 px
 
+[在线预览](https://jsbin.com/fujase)
+
 <br>
 
 <p>
@@ -14,6 +16,8 @@
 
 ## 遮罩
 > 默认大小通用是 25 px
+
+[普通遮罩在线预览](https://output.jsbin.com/roduxen) | [已知主办(orgId)定制遮罩在线预览](https://output.jsbin.com/dojere)
 
 <br>
 
@@ -29,6 +33,8 @@
 
 ## 通过主办id(orgId)定制图片
 
+[在线预览](https://output.jsbin.com/benaler)
+
 <br>
 
 <p>
@@ -38,6 +44,8 @@
 <br>
 
 ## 定义图片
+
+[在线预览](https://output.jsbin.com/qipuzom)
 
 <br>
 

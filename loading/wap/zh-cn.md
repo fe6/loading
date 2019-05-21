@@ -3,6 +3,8 @@
 
 ## 基本用法
 
+[浏览器手机模式在线预览](https://output.jsbin.com/tisusuk)
+
 <br>
 
 <p>
@@ -13,17 +15,21 @@
 
 ## 遮罩
 
+[浏览器手机模式在线预览](https://output.jsbin.com/bemezav)
+
 <br>
 
 <p>
   <button style="width: 100px;height: 20px;background:#1995f9;color: #fff;font-size: 14px;line-height: 20px; padding: 0;" @click=" status = true ">{{status ? '显示':'隐藏'}}</button>
   <br>
-  <w-loading-wap mode="mask" :style="{zIndex: 999}" v-if="status" @click.native=" status = false " />
+  <w-loading-wap mode="mask" orgId="100213" imgVersion="1" :style="{zIndex: 999}" v-if="status" @click.native=" status = false " />
 </p>
 <br>
 <br>
 
 ## 通过主办id(orgId)定制图片
+
+[浏览器手机模式在线预览](https://output.jsbin.com/cudaden)
 
 <br>
 
@@ -34,6 +40,8 @@
 <br>
 
 ## 定义图片
+
+[浏览器手机模式在线预览](https://output.jsbin.com/yujeguh)
 
 <br>
 
