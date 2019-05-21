@@ -19,7 +19,7 @@
     "lint-staged": "lint-staged",
     "test": "jest --config jest.conf.js --no-cache --verbose",
     "codecov": "codecov ./coverage/clover.xml",
-    "deploy-gh": "yarn build:site && bash scripts/deploy-gh.sh",
+    "site": "yarn build:site && bash scripts/deploy-gh.sh",
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
