@@ -1,4 +1,4 @@
-$width: 17.6vw;
+$width: 17.67vw;
 $padding: 3.3vw;
 
 .w-loading-wap {
@@ -12,9 +12,9 @@ $padding: 3.3vw;
     transform: translate3d(-50%, -50%, 0);
     border-radius: 4px;
     box-sizing: content-box;
-    width: 17.6vw;
-    height: 17.6vw;
-    padding: 3.3vw;
+    width: $width;
+    height: $width;
+    padding: $padding;
   }
 
   &-fixed {
