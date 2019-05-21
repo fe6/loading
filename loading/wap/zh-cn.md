@@ -41,12 +41,14 @@
 
 ## 定义图片
 
-[浏览器手机模式在线预览](https://output.jsbin.com/yujeguh)
+[浏览器手机模式在线预览](https://output.jsbin.com/yujeguh) | [店铺浏览器手机模式在线预览](https://output.jsbin.com/wedokos)
 
 <br>
 
 <p>
   <w-loading-wap imgName="loading" :style="{position: 'static', transform: 'none'}" />
+  <br>
+  <w-loading-wap imgName="loading-shop" :style="{position: 'static', transform: 'none'}" />
 </p>
 <br>
 <br>
